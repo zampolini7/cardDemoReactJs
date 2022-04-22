@@ -1,0 +1,23 @@
+.div-form-add{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+    color: black;
+}
+
+/* input:valid {
+    border: 6px solid forestgreen;
+    
+} */
+
+input:invalid {
+    border: 6px solid pink;
+    
+}
+
+.error-message{
+    font-weight: bold;
+    color:darkred;
+}
